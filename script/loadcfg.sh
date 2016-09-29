@@ -27,8 +27,6 @@ LOG_PATH=/opt-zkloader.log
 CLASSPATH="${CLASSPATH}"
 MEM_ARGS="-Xms256m -Xmx512m -XX:PermSize=64M -XX:MaxPermSize=128M"
 
-. "${WEBAPP_CLASSES_PATH}/setEnv.sh"
-
 cd ${WEBAPP_CLASSES_PATH}
         
 ${JAVA_HOME}/bin/java ${MEM_ARGS} -D${PROCESS_PARM}  ${JAVA_OPTIONS} com.ai.opt.sdk.appserver.LoadConfServiceStart ccsprop  >> $LOG_PATH 
