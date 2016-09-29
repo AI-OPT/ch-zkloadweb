@@ -72,17 +72,12 @@ var pager;
 		            <td class="right-border"><a href="javascript:void(0);" id="config" onclick="pager._search('aiopt-ch-product-web');">配置</a></td>
 		          </tr>
 		          <tr>
-		            <td>仓库后场</td>
-		            <td id="project_name">slp-route</td>
+		            <td>仓库后场、仓库Web</td>
+		            <td id="project_name">slp-route、ch-route-web</td>
 		            <td id="ccs_name">aiopt-ch-route</td>
 		            <td class="right-border"><a href="javascript:void(0);" id="config" onclick="pager._search('aiopt-ch-route');">配置</a></td>
 		          </tr>
-		          <tr>
-		            <td>仓库web</td>
-		            <td id="project_name">ch-route-web</td>
-		            <td id="ccs_name">aiopt-ch-route-web</td>
-		            <td class="right-border"><a href="javascript:void(0);" id="config" onclick="pager._search('aiopt-ch-route-web');">配置</a></td>
-		          </tr>
+		          
 		          
 		 	</table>
 
