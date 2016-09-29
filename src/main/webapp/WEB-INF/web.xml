@@ -18,9 +18,9 @@
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
-  <listener>
+  <!-- <listener>
   	<listener-class>com.ai.baas.mt.web.listener.ZkLoadCfgListener</listener-class>
-  </listener>
+  </listener> -->
   
   <filter>
     <filter-name>encoding</filter-name>
