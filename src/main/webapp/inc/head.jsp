@@ -47,6 +47,14 @@ function setBreadCrumb(_first_breadcrumb_title,_second_breadcrumb_title){
      <li><i class="icon-angle-right"></i><span id="second_breadcrumb_title"></span></li>
     </ul>
    </div>
+<div class="user">
+    <div class="user-cnt">
+     <p><img src="${_base}/resources/baasmt/images/login_user.png"><span>${sessionScope.user_session_key.username}</span><i class="icon-angle-down"></i></p>
 
+     <ul style="display:none;">
+      <li><a href="${_base}/logout">退出</a></li>
+     </ul>
+    </div>
+   </div>
 </div>
 

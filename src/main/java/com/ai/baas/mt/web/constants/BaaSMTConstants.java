@@ -1,6 +1,7 @@
 package com.ai.baas.mt.web.constants;
 
 public final class BaaSMTConstants {
+	public static final String USER_SESSION_KEY= "user_session_key";
     private BaaSMTConstants() {
     }
     public static final String PAGESIZE = "pageSize";
